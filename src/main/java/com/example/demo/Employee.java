@@ -4,7 +4,7 @@ package com.example.demo;
 public class Employee<date> {
     private String firstname;
     private String lastname;
-    private long ssn;
+    private String ssn;
     private date dob;
 
     public String getFirstname() {
@@ -23,11 +23,11 @@ public class Employee<date> {
         this.lastname = lastname;
     }
 
-    public long getSsn() {
+    public String getSsn() {
         return ssn;
     }
 
-    public void setSsn(long ssn) {
+    public void setSsn(String ssn) {
         this.ssn = ssn;
     }
 
